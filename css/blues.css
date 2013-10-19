@@ -1,0 +1,156 @@
+.6u-first{
+	width: 70%;
+}
+.places{
+	width: 45%;
+	float:left;
+}
+
+#nepal{
+	margin-left: 30px;
+}
+.places ul{
+	list-style: initial;
+}
+.places ul li{
+	font-size: 20px;
+}
+.places p{
+	line-height: 0.25em !important;
+	color: cadetblue;
+}
+.6u{
+	width: 40%;
+	float:right !important;
+}
+#first-6u{
+	width:57%;
+}
+#u6{
+	width:40%;
+	float: right;
+}
+#u6 a{
+	margin-top: 10px;
+}
+#thecity{
+	width:100%;
+	height:200px;
+}
+#footy{
+	background-image:url('images/flying.png');
+	background-repeat:no-repeat;
+}
+.extras{
+	padding:10px;
+	margin-bottom:5px;
+	/*background-color: #474f51;*/
+	color:white;
+}
+.extras:hover{
+	/*background-color: #474f51;*/
+	color: #474f51;
+}
+/*.extras span{
+	font-size: 17px;
+	margin-bottom:10px;
+	font-family: 'Oswald', sans-serif;
+	vertical-align: text-bottom;
+}*/
+.extras img{
+	width:30px;
+	height:30px;
+}
+.extras a{
+	text-decoration: none;
+	font-size: 30px;
+}
+.extras a span{
+	font-size: 30px;
+}
+.extras a span:hover{
+	color: #474f51;
+	font-weight: bold;
+}
+
+.biolink:hover{
+	color: #ccc;	
+}
+
+dl {
+ width:100%;
+ overflow:hidden;
+}
+dt {
+ float:left;
+ width:40%; /* adjust the width; make sure the total of both is 100% */
+}
+dd {
+ float:left;
+ width:60%; /* adjust the width; make sure the total of both is 100% */
+	color: #ccc;
+}
+.contact_name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contacts{
+	margin-right: 25px !important;
+}
+.artist-name{
+	text-align: center;
+}
+.festival-headers{
+	color: darkred !important;
+}
+.mouseentered{
+	background-color: #bbb !important;
+}
+.clicked{
+	background-color: #bbb !important;
+}
+.mouseenteredonevent{
+	background-color: floralwhite !important;
+}
+.clickedonevent{
+	background-color: floralwhite !important;
+}
+.biolink{
+	cursor: pointer;
+}
+#map-canvas{
+	width:100%;
+	height:400px;
+	float:left;
+}
+#indian-map-canvas{
+	width:100%;
+	height:400px;
+	float:left;
+}
+.maps{
+	width: 50%;
+	float:left;
+	padding-bottom: 10px;
+}
+.indianmap{
+		width: 48%;
+}
+.event{
+	cursor: pointer;
+}
+.eventdesc{
+	width:280px !important;
+}
+.eventenclosure{
+	width: 50%;
+	float:left;
+}
+.mapbody{
+	overflow:hidden;
+	padding-right: 25px;
+}
+.maps h2{
+	font-size: 3em !important;
+	padding-bottom:10px;
+}
