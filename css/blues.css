@@ -154,3 +154,12 @@ dd {
 	font-size: 3em !important;
 	padding-bottom:10px;
 }
+.highonblues{
+	float: right;
+	text-align: center;
+	font-size: 32px;
+	color: coral;
+	font-family: fantasy;
+	padding-right: 20px;
+	margin-top: 22px;
+}
