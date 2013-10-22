@@ -48,7 +48,12 @@
 								<section id="longtalldeb" class="biolink">
 									<a href="#" class="bordered-feature-image"></a>
 									<p class="artist-name">
-									<h2>Long Tall Deb & Colin John</h2>
+									<h1>Long Tall Deb & Colin John</h1>
+								</section>
+								<section id="mukti" class="biolink">
+									<a href="#" class="bordered-feature-image"></a>
+									<p class="artist-name">
+									<h2>Mukti & The Revival</h2>
 								</section>
 								<section id="tumbleweed" class="biolink">
 									<a href="#" class="bordered-feature-image"></a>
@@ -141,6 +146,27 @@ Tumbleweed INC is the idea of Sarad Shrestha (former Axe band guitarist) one of 
 <h2>Videos</h2>
 <a href="http://www.youtube.com/watch?v=48Prhdn7O1E">Kathmandu</a><br>
 <a href="http://www.youtube.com/watch?v=aIsUkfIzTig">Badlido Samaj</a>
+<!--<br>
+<a href="http://www.youtube.com/watch?v=gW4lkNDPA-Y">Big Trouble - live au Ferrailleur</a><br>
+<a href="http://www.youtube.com/watch?v=kFopFw5kurc">Shake - live au Ferrailleur</a><br>
+<a href="http://www.youtube.com/watch?v=JoJTBHDqqA0">Who do you think you are</a><br> -->
+</section>
+
+<section id="mukti-bio" class="bios">
+									<header>
+										<h2 class="festival-headers">Mukti & The Revival</h2>
+									</header>
+<p>
+<center><img src="images/mukti.jpg" alt=""></center><br>
+Mukti & Revival is one of the most popular bands in Nepal. With charismatic and unique style, this is one band that has always remained popular especially among the youth. 'Mukti & Revival' is an all time favorite among the organizers too because they have a guarantee crowd. The band consists of four energetic musicians Mukti Shakya (vocalist and guitarist) Sunit Kansakar (guitarist), Nikhil Tuladhar (drummer) and Roshan Kansakar (bassist) - all from their previous band called NEWAZ and Looza. 
+Mukti and Revival is also Nepal’s premier blues band blending the existing folk with blues. While rock and pop music continues to dominate the music culture in Nepal, Mukti and his bands of brothers, have consistently kept blues music alive in Nepal for more than 20 years, introducing it to generations.
+</p>
+
+<h2>Website</h2>
+<a href="http://www.muktiandrevival.com/">www.muktiandrevival.com</a>
+<h2>Videos</h2>
+<a href="http://www.youtube.com/watch?v=kAFUaWFqLro">Kanchi Nani Blues</a><br>
+<a href="http://www.youtube.com/watch?v=EAgFhl3TKrA">DuiChar Dinko</a>
 <!--<br>
 <a href="http://www.youtube.com/watch?v=gW4lkNDPA-Y">Big Trouble - live au Ferrailleur</a><br>
 <a href="http://www.youtube.com/watch?v=kFopFw5kurc">Shake - live au Ferrailleur</a><br>
@@ -258,6 +284,12 @@ $(document).ready(function(){
 		$(this).addClass('clicked');
 	});
 
+	$('#mukti').on('click',function(){
+		$('.bios').hide();
+		$('.biolink').removeClass('clicked');
+		$('#mukti-bio').show();
+		$(this).addClass('clicked');
+	});
 
 	$('#tumbleweed').on('click',function(){
 		$('.bios').hide();
