@@ -56,11 +56,11 @@
 									<p class="artist-name">
 									<center><h2>Mukti & The Revival<br>(Nepal)</h2></center>
 								</section>
-								<!--<section id="tumbleweed" class="biolink">
+								<section id="ususpect" class="biolink">
 									<a href="#" class=""></a>
 									<p class="artist-name">
-									<center><h2>Tumbleweed INC<br>(Nepal)</h2></center>
-								</section>-->
+									<center><h2>The Usual Suspect<br>(Nepal)</h2></center>
+								</section>
 
 						</div>
 						<div class="6u">
@@ -133,16 +133,20 @@ Mr. No Money Band was officially formed in Bologna in 2005. Starting from the in
 <a href="http://www.youtube.com/watch?v=JoJTBHDqqA0">Who do you think you are</a><br> -->
 </section>
 
-<!--<section id="tumbleweed-bio" class="bios">
+<section id="ususpect-bio" class="bios">
 									<header>
-										<h2 class="festival-headers">TumbleWeed INC</h2>
+										<h2 class="festival-headers">The Usual Suspect</h2>
 									</header>
 <p>
-<center><img src="images/tumble.jpg" alt="" class="artistimage"></center><br>
-Tumbleweed INC is the idea of Sarad Shrestha (former Axe band guitarist) one of the talented musicians dedicated to make music to satisfy the demands of Rap funk/ Metal enthusiasts by churning out melodies with the aggression and the soul of modern music.  It was fromed in 2012 with the collaboration of artist from various bands. The sound of Tumbleweed is Rap metal core, influenced from Rage Against the Machine, LimpBizkit, Primus, RHCP, Snot, etc. Tumbleweed are: Ktm Souljha on vocals, Sarad Shrestha on Guitar, Prasant Maharjan on Bass, Roben Neupane on Drums.
+<center><img src="images/uspect.jpg" alt="" class="artistimage"></center><br>
+The Usual Suspects is comprised of Dinesh Rai on vocal and bass, Jyoti Ghimire on guitar, Sujan Manandhar on guitar and Patrick Wilson on drums.<br><br>
+Dinesh Rai is a founding member and original vocalist of Prism, a band from the early 80s that still performs with a variable line-up. He has been performing every Friday at Dwarika's Hotel playing soft rock and the blues. He has been one of the artistes regularly featured in the Tribute to Rock "Golden Moments" series with The Usual Suspects. In recent years he has been leaning more towards the blues than any other genre.<br><br>
+Jyoti Ghimire is a well-known singer in his own right and joined Prism as lead guitarist in the late 80s when the band was going through a metamorphosis of sorts. With many albums under his belt, he occasionally fronts his own band, while at other times he is comfortable in the role of a lead guitarist. He has toured many countries in the past as singer/guitarist doubling as a singer and a lead guitarist for other popular artistes.<br><br>
+Sujan Manandhar is an outstanding guitarist among the new crop of axe men and has been performing regularly at Dwarika's every Friday night. Recently he has also been lead guitarist for various other bands including the very popular group 'The Shadows'. He toured the country recently with Tuborg's "Let's Get Loud" concert series during September and October 2013.<br><br>
+Patrick Wilson is a founding member and original drummer of 1974 AD. He has been performing with various bands since leaving AD, and also fronts his own band as a vocalist, singing in many different languages. His songs in English can be heard in AD's debut album "Time Out" released in 1996.
 </p>
 
-<h2>Website</h2>
+<!--<h2>Website</h2>
 <a href="https://www.facebook.com/pages/Tumbleweed/408258019230849">Tumbleweed on Facebook</a>
 <h2>Videos</h2>
 <a href="http://www.youtube.com/watch?v=48Prhdn7O1E">Kathmandu</a><br>
@@ -275,6 +279,13 @@ $(document).ready(function(){
 		$('.bios').hide();
 		$('.biolink').removeClass('clicked');
 		$('#longtalldeb-bio').show();
+		$(this).addClass('clicked');
+	});
+
+	$('#ususpect').on('click',function(){
+		$('.bios').hide();
+		$('.biolink').removeClass('clicked');
+		$('#ususpect-bio').show();
 		$(this).addClass('clicked');
 	});
 
