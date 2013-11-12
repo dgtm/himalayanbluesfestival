@@ -175,6 +175,20 @@ Patrick Wilson is a founding member and original drummer of 1974 AD. He has been
 <a href="http://www.youtube.com/watch?v=kFopFw5kurc">Shake - live au Ferrailleur</a><br>
 <a href="http://www.youtube.com/watch?v=JoJTBHDqqA0">Who do you think you are</a><br>-->
 </section>
+<section id="hot-bio" class="bios">
+									<header>
+										<h2 class="festival-headers">hot5</h2>
+									</header>
+<p>
+<center><img src="images/hot5.jpg" alt="" class="artistimage"></center><br>
+Jackowacko: Trumpet<br> 
+Dev Lama: Guitar<br> 
+Pawan Tandukar: Keys<br>
+Pratik Baniya: Bass<br> 
+Pratap Risal: Drums<br>
+hot5 is a band dedicated to the black American art form. this band plays music which defines that black nature in music from jazz, blues, Rib, funk, afro-Cuban, soul etc. hot5 is named after the famous Louis Armstrong band from the 1920s also named hot5 and determined to keep the legacy alive hot5 emerged in Nepal to introduce the black music and blend with nepali music literature. hot5 also works on its originals regarding contemporary jazz to blues and soul. Where hot blues meets hot5 
+</p>
+</section>
 
 <section id="mukti-bio" class="bios">
 									<header>
@@ -215,6 +229,11 @@ Mukti and Revival is also Nepal’s premier blues band blending the existing fol
 									<a href="#" class=""></a>
 									<p class="artist-name">
 									<center><h2>The Usual Suspect<br>(Nepal)</h2></center>
+								</section>
+								<section id="hot" class="biolink">
+									<a href="#" class=""></a>
+									<p class="artist-name">
+									<center><h2>hot5<br>(Nepal)</h2></center>
 								</section>
 
 						</div>
@@ -324,6 +343,13 @@ $(document).ready(function(){
 		$('.bios').hide();
 		$('.biolink').removeClass('clicked');
 		$('#us-bio').show();
+		$(this).addClass('clicked');
+	});
+
+	$('#hot').on('click',function(){
+		$('.bios').hide();
+		$('.biolink').removeClass('clicked');
+		$('#hot-bio').show();
 		$(this).addClass('clicked');
 	});
 
