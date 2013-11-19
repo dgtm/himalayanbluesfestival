@@ -166,3 +166,9 @@ dd {
 .artistimage{
 	width: 90%;
 }
+.ticket{
+	font-weight: bold;
+}
+.tix{
+	text-align: right;
+}
