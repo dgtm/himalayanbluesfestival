@@ -172,3 +172,7 @@ dd {
 .tix{
 	text-align: right;
 }
+.check-list i{
+	font-style: normal;
+	font-size: .85em;
+}
